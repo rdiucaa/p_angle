@@ -76,8 +76,8 @@ def find_p_ang(bc,utc_fits):
     # bc = '/home/rushikesh/Downloads/SUIT_files/SPICE/p_angle_problem/nov_some_days_bc/' + bc_file_name
     # bsp = '../kernels/spk/'+ bsp_file_name
     lsk = '../kernels/lsk/naif0012.tls.txt'   
-    fk = '../kernels/fk/ADITYA_frame_kernel_v03.tf' 
-    # fk = '../kernels/fk/ADITYA_frame_kernel_v04.tf' 
+    # fk = '../kernels/fk/ADITYA_frame_kernel_v03.tf' 
+    fk = '../kernels/fk/ADITYA_frame_kernel_v04.tf' 
     
             
     if spk:
