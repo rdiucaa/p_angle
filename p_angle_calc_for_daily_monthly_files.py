@@ -22,18 +22,11 @@ import spiceypy
 
 
 utc_fits = '2025-05-3T00:22:16.873'
-# 
-# utc_fits = '2024-07-30T11:21:26.96925'
 
-
-# utc_fits = '2024-06-20T11:21:26.96925'
 
 # File paths
-# bc_file_name = '/home/rushikesh/Downloads/SUIT_files/SPICE/p_angle_problem/aug_full_month_ck/al1_aug_full_spice_attitude.bc'
-bc_file_name = '/home/rushikesh/Downloads/SUIT_files/SPICE/kernels/ck/03_may_2025/SUT81N18P1AL10013008NNNN25124042236913_C25_0113_000910_00_qib.bc'
-# bc_file_name = '/home/rushikesh/Downloads/SUIT_files/SPICE/p_angle_problem/july_full_month_ck/al1_july_full_spice_attitude.bc'
-# bc_file_name = '/home/rushikesh/Downloads/SUIT_files/SPICE/p_angle_problem/june_full_month_ck/al1_june_full_spice_attitude.bc'
 
+bc_file_name = '/home/rushikesh/Downloads/SUIT_files/SPICE/kernels/ck/03_may_2025/SUT81N18P1AL10013008NNNN25124042236913_C25_0113_000910_00_qib.bc'
 
 def calc_p_ang_daily_monthly(bc_file_name,utc_fits):
     
