@@ -112,7 +112,7 @@ def calc_p_ang_daily_monthly(bc_file_name,utc_fits):
         # print('utc = ', utc)
         
         # Transform HCI to SUIT frame
-        cmat3 = spiceypy.pxform('HCI', 'ADITYA', corrected_et)
+        cmat3 = spiceypy.pxform('HCI', 'ADITYA_SUIT2', corrected_et)
         solar_north_in_suitframe = spiceypy.mxv(cmat3, hci_sun_north)
         
         # Project onto CCD plane
